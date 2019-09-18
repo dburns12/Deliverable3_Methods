@@ -13,20 +13,14 @@ namespace Deliverable3_Methods
         static void Main(string[] args)
         {
             Console.Write("Please enter your first and last name: ");
-            try
-            {
-                // This variable will gather data from user input
-                string input = Console.ReadLine();
+            
+            // This variable will gather data from user input
+            string input = Console.ReadLine();
 
-                Console.WriteLine("\n");
+            Console.WriteLine("\n");
 
-                // Call Print_Name method
-                Print_Name(input);
-            }
-            catch
-            {
-
-            }
+            // Call Print_Name method
+            Print_Name(input);
         } // End of main
         
         // Method that displays user input
